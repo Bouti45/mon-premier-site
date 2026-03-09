@@ -7,21 +7,20 @@ body {
 }
 .container{
     width: 90%;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
-    padding: 60px 0;
 }
 header{
     text-align: center;
-    padding: 100px 20px;
-    background: linear-gradient(to right, #0f172a, #1e293b);
+    padding: 120px 20px;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
 }
 h1{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: #38bdf8;
 }
 .subtitle{
-    margin: 20px 0;
+    margin-bottom: 30px 0;
     font-size: 1.2rem;
     color: #cbd5e1;
 }
@@ -29,20 +28,23 @@ h2{
     color: #38bdf8;
     margin-bottom: 20px;
 }
-.dark-section{
+.section{
+padding:80px 0;
+}
+.section-dark{
     background-color: #1e293b;
+    padding:80px 0;
 }
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+.experience{
+margin-bottom:40px;
+border-left:4px solid #38bdf8;
+padding-left:20px;
 }
-.card{
-    background-color: #0f172a;
-    padding: 20px;
-    border-radius: 8px;
-    flex: 1;
-    width: 250px;
+.project{
+margin-bottom:40px;
+padding:20px;
+background:#1e293b;
+border-radius:8px;
 }
 .method{
     margin-bottom: 10px;
@@ -51,13 +53,14 @@ h2{
 margin-bottom: 10px;
 }
 .btn{
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #38bdf8;
-    color: #0f172a;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bolder;
+background:#38bdf8;
+color:#0f172a;
+padding:12px 20px;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+margin:5px;
+display:inline-block;
 }
 .btn-cv {
   display: inline-block;
@@ -70,32 +73,33 @@ margin-bottom: 10px;
   font-weight: bolder;
 }
 .btn-cv:hover {
-  background-color: #38bdf8;
+  transform:translateY(-2px);
+  transition:0.2s;
 }
 .btn-cv {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #38bdf8; 
-  color: #0f172a;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 5px;
+  border:2px solid #38bdf8;
+color:#38bdf8;
+padding:10px 20px;
+text-decoration:none;
+border-radius:6px;
+margin:5px;
 }
 .btn-cv:hover {
-  background-color: #38bdf8;
+  transform:translateY(-2px);
+transition:0.2s;
 }
 .btn-download {
-display: inline-block;
-  padding: 10px 20px;
-  background-color: #38bdf8;
-  color: #0f172a;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bolder;
+background:#22c55e;
+color:#0f172a;
+padding:12px 20px;
+text-decoration:none;
+border-radius:6px;
+margin:5px;
+}
 }
 .btn-download:hover {
-background-color: #38bdf8;
+transform:translateY(-2px);
+transition:0.2s;
 }
 .linkedin-btn {
   background-color: #0A66C2; /* couleur LinkedIn */
@@ -105,13 +109,12 @@ background-color: #38bdf8;
   border-radius: 6px;
   font-weight: bold;
 }
-
 .linkedin-btn:hover {
   background-color: #084a8c;
 }
 footer{
     text-align: center;
     padding: 20px;
-    background-color: #0f172a;
+    background-color: :#020617;
     font-size: 0.9rem;
 }
