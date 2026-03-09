@@ -19,21 +19,20 @@ h1{
     font-size: 2.8rem;
     color: #38bdf8;
 }
-.subtitle{
-    margin-bottom: 30px 0;
-    font-size: 1.2rem;
-    color: #cbd5e1;
-}
 h2{
-    color: #38bdf8;
-    margin-bottom: 20px;
+color:#38bdf8;
+margin-bottom:20px;
+}
+.subtitle{
+color:#cbd5e1;
+margin-bottom:30px;
 }
 .section{
 padding:80px 0;
 }
 .section-dark{
-    background-color: #1e293b;
-    padding:80px 0;
+background:#1e293b;
+padding:80px 0;
 }
 .experience{
 margin-bottom:40px;
@@ -62,33 +61,15 @@ font-weight:bold;
 margin:5px;
 display:inline-block;
 }
-.btn-cv {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #38bdf8;
-  color: #0f172a;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bolder;
-}
-.btn-cv:hover {
-  transform:translateY(-2px);
-  transition:0.2s;
-}
-.btn-cv {
-  border:2px solid #38bdf8;
+.btn-outline{
+border:2px solid #38bdf8;
 color:#38bdf8;
 padding:10px 20px;
 text-decoration:none;
 border-radius:6px;
 margin:5px;
 }
-.btn-cv:hover {
-  transform:translateY(-2px);
-transition:0.2s;
-}
-.btn-download {
+.btn-secondary{
 background:#22c55e;
 color:#0f172a;
 padding:12px 20px;
@@ -96,21 +77,9 @@ text-decoration:none;
 border-radius:6px;
 margin:5px;
 }
-}
-.btn-download:hover {
+.btn:hover{
 transform:translateY(-2px);
 transition:0.2s;
-}
-.linkedin-btn {
-  background-color: #0A66C2; /* couleur LinkedIn */
-  color: white; /* texte blanc */
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-}
-.linkedin-btn:hover {
-  background-color: #084a8c;
 }
 footer{
     text-align: center;
@@ -118,3 +87,4 @@ footer{
     background-color: :#020617;
     font-size: 0.9rem;
 }
+
