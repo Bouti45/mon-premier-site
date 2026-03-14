@@ -97,10 +97,16 @@ transition: transform 0.2s;
   background: #22c55e;
   color: #0f172a;
 }
+.date{
+    color: #cbd5e1; /* gris clair comme ton subtitle */
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 10px;
+}
 footer{
     text-align: center;
     padding: 20px;
-    background-color: :#020617;
+    background-color:#020617;
     font-size: 0.9rem;
 }
 
